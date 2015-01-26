@@ -6284,7 +6284,7 @@ button.close {
 .btn-group-vertical > .btn-group:after,
 .nav:before,
 .nav:after,
-.navbar:before,
+/*.navbar:before,*/
 .navbar:after,
 .navbar-header:before,
 .navbar-header:after,
