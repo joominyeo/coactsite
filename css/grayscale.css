@@ -265,7 +265,7 @@ a:focus {
 .download-section-chile {
     width: 100%;
     padding: 100px 0;
-    color: #fff;
+    color: #000;
     background: url(../img/Flag_of_Chile.png) no-repeat center center;
     opacity: 50;
     background-color: #000;
@@ -278,7 +278,7 @@ a:focus {
 .download-section-guatemala {
   width: 100%;
   padding: 100px 0;
-  color: #fff;
+  color: #000;
   background: url(../img/Bandera_7_República_de_Guatemala_15_Septiembre_1968.png) no-repeat center center scroll;
   background-color: #000;
   -webkit-background-size: cover;
