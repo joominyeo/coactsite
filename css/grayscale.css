@@ -266,7 +266,7 @@ a:focus {
     width: 100%;
     padding: 100px 0;
     color: #fff;
-    background: url(../img/Flag_of_Chile.png) no-repeat center center scroll;
+    background: url(../img/Flag_of_Chile.png) no-repeat center center;
     opacity: 50;
     background-color: #000;
     -webkit-background-size: cover;
