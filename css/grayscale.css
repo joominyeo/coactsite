@@ -262,16 +262,40 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.download-section-chile {
     width: 100%;
     padding: 100px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/Flag_of_Chile.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.download-section-guatemala {
+  width: 100%;
+  padding: 100px 0;
+  color: #fff;
+  background: url(../img/Bandera_7_República_de_Guatemala_15_Septiembre_1968.png) no-repeat center center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.download-section-korea {
+  width: 100%;
+  padding: 100px 0;
+  color: #fff;
+  background: url(../img/Flag_of_South_Korea.png) no-repeat center center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 #map {
