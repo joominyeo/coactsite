@@ -1,0 +1,6 @@
+# ensure that all requests for files and folders that does not exists will be redirected to index.php
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [NC,L]

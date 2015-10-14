@@ -1,0 +1,441 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+/* overide fancy box default styles */
+.fancybox-title-inside-wrap {
+    padding: 0px 0px 0px 0px;
+    height: 50px;
+    background-color: #428bca;
+    margin: 0px -15px 0px -15px;
+    overflow: hidden;
+}
+
+.fancybox-title-inside-wrap .fancybox-custom-title{
+    text-transform: capitalize;
+    font-family: "open sans",Arial,Helvetica,sans-serif,"Times New Roman",Times,serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 50px;
+
+}
+
+.fancybox-close {
+    background-color: transparent;
+    height: 50px;
+    opacity: 1;
+    transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
+    width: 50px;
+    z-index: 9000;
+}
+
+.fancybox-close i{
+    color: #e74c3c;
+}
+
+.fancybox-item.fancybox-close.fancybox-close-back{
+    background: #18bc9c;
+}
+
+.fancybox-close:hover{
+    background-color:#18bc9c;
+}
+
+.fancybox-item.fancybox-close.fancybox-close-back-small{
+    width: 30px;
+    height: 30px;
+    background-color: #18bc9c;
+    background-image: none;
+    cursor: pointer;
+    opacity: 0.5;
+    -webkit-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;	
+    -moz-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
+    -o-transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
+    transition: background 0.1s linear 0s, opacity 0.1s linear 0s;
+}
+
+.fancybox-item.fancybox-close.fancybox-close-back-small:hover{
+    opacity: 1;
+    background-color:#18bc9c;
+}
+
+
+.fancybox-item.fancybox-close.fancybox-close-back-small .font-icon-remove{
+    font-size: 20px;
+    margin: -10px 0 0 -10px;
+}
+
+.fancybox-title-inside-wrap .fancybox-custom-title .vertical–separator{
+    border-right-color:#428bca;
+    height: 40px;    
+    border-right-style: solid;
+    border-right-width: 1px;
+    width: 1px;
+    margin-top: 5px;
+}
+
+.fancybox-inner .row{
+    margin-left: 0px;
+    margin-right: 0px; 
+    color:#000000;
+}
+
+.fancybox-inner .no-padding-col{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fancybox-inner .no-left-padding-col{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.fancybox-inner .no-right-padding-col{
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.fancybox-inner .confirm-msg{
+    color: #000000;
+    font-family: "Oxygen",Arial,Helvetica,sans-serif,"Times New Roman",Times,serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* overide fancy box default styles end */
+
+.fancybox-inner #resetPass,
+.fancybox-inner #supportPopup{
+    padding-top: 15px; 
+}
+
+.required{
+    color: red;
+}
+
+
+@media (min-width: 768px) {
+    /* we need to happen this all other cases not xs*/
+
+}
+
+
+/* for all other than xs columns */
+@media (min-width: 768px) {
+
+}
+
+/* for only xs columns */
+@media (max-width: 767px) {
+
+}
+
+
+
+.google-maps iframe {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+#map,
+#school-section,
+.profile-page-container{
+    padding-top: 50px;
+}
+
+.sign-in-container,
+.sign-up-container{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.school-container,
+.profile-page-container{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sign-up-container .sign-up-row-button{
+    padding-top: 10px;
+}
+
+#school-section .school-container{
+    /*    min-height: 100%;*/
+    /*    color: #fff;
+        background-color: #d9edf7;*/
+}
+
+.gen-set-username-cnt,
+.gen-set-email-cnt,
+.gen-set-pass-cnt{
+    padding-top: 30px;
+}
+
+#profile-content-row .sub-title-row .breadcrumb{
+    background-color: #428bca;
+    color: #fff;
+}
+
+#profile-content-row .sub-title-row .breadcrumb .active{
+    color: #fff;
+    font-weight: bold;
+}
+
+.sidebar-nav .dropdown-menu{
+    border-radius: 0px;
+    opacity: 0.9;
+}
+
+.sidebar-nav .dropdown-menu:hover{
+    opacity: 1;
+}
+
+.sidebar-nav li a:hover{
+    color: black;
+}
+
+#mail_newnote_row .mail_newnote_col{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#loading-wrapper{
+    background: #428bca none repeat scroll 0 0;
+    height: 100%;
+    top:0;
+    left:0;
+    /*    margin-right: -250px;*/
+    overflow-y: auto;
+    position: fixed;
+    /*    right: 0;*/
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: 9999;
+    opacity: 0.4;
+    text-align: center;
+}
+
+#loading-wrapper img{
+    margin-top: 75px;
+}
+
+.custom_backgroud{
+/*    background-image: url("../images/city-skyline-wallpapers-008.jpg");
+    background-repeat: no-repeat;
+    background-position: center;*/
+    
+/*    background-color: rgba(0, 0, 0, 1);*/
+   
+    background: #000000 url("../images/city-skyline-wallpapers-008.jpg") no-repeat scroll center;
+    background-size:cover;
+     opacity: 1;
+}
+
+#custom-section{
+    /*    background: rgba(0, 0, 0, 0) url("../images/city-skyline-wallpapers-008.jpg") no-repeat scroll center center / cover ;*/
+    min-height: 100%;
+}
+
+.coal-text{
+    color: #fff;
+    font-family: "Exo",sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.sign-in-container .coal-text{
+    padding-top: 50px;
+}
+
+.sign-up-container .coal-text{
+    padding-top: 200px;
+}
+
+.home-btn-login{
+    margin-right: 25px;
+
+}
+
+.home-btn-login,
+.home-btn-register{
+    width: 150px;
+}
+
+/* for elements specailly end */
+
+/* new css over rides to get input look and feel as needed */
+/*input[type="text"] */
+.sign-in-container .form-control,
+.sign-in-container .form-control:focus,
+.sign-up-container .form-control,
+.sign-up-container .form-control:focus{
+/*        background: transparent none repeat scroll 0 0;*/
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: "Exo",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    padding: 4px;
+    /*    width: 250px;*/
+    box-shadow:none;
+    outline: none;
+    box-sizing:initial;
+
+}
+
+.sign-in-container input[type="checkbox"],
+.sign-in-container input[type="checkbox"]:focus,
+.sign-up-container input[type="checkbox"],
+.sign-up-container input[type="checkbox"]:focus{
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    box-shadow:none;
+}
+
+/*.sign-in-container .form-control::-moz-placeholder,
+.sign-up-container .form-control::-moz-placeholder,
+.sign-in-container .form-control:-moz-placeholder,
+.sign-up-container .form-control:-moz-placeholder,
+.sign-in-container .form-control:-ms-input-placeholder,
+.sign-up-container .form-control:-ms-input-placeholder,
+.sign-in-container .form-control::-webkit-input-placeholder,
+.sign-up-container .form-control::-webkit-input-placeholder{
+    color: #fff;
+    opacity: 0.6;
+}*/
+
+.sign-in-container .form-control::-moz-placeholder,
+.sign-up-container .form-control::-moz-placeholder{
+    color: rgba(255,255,255,0.6);;
+    /*  opacity: 0.6;*/
+}
+.sign-in-container .form-control:-ms-input-placeholder,
+.sign-up-container .form-control:-ms-input-placeholder{
+    color: rgba(255,255,255,0.6);;
+    /*  opacity: 0.6;*/
+}
+.sign-in-container .form-control::-webkit-input-placeholder,
+.sign-up-container .form-control::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);;
+    /*  opacity: 0.6;*/
+}
+
+
+.sign-in-container .btn.btn-default,
+.sign-up-container .btn.btn-default{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #a18d6c;
+    cursor: pointer;
+    font-family: "Exo",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 35px;
+    margin-top: 10px;
+    padding: 6px;
+    /*    width: 260px;*/
+}
+
+.sign-in-container .btn.btn-default:hover,
+.sign-up-container .btn.btn-default:hover{
+    opacity: 0.8;
+}
+
+.sign-up-container h5,
+.sign-in-container .checkbox > label{
+    color: #fff;    
+}
+
+.sign-up-container h5 > a,
+.sign-up-container h5 > a:hover,
+.sign-up-container h5 > a:focus,
+.sign-in-container .forgot-pass-box > a,
+.sign-in-container .forgot-pass-box > a:hover,
+.sign-in-container .forgot-pass-box > a:focus{
+    color: #fff;
+}
+
+.sign-in-container .forgot-pass-box{
+    margin-top: 15px;
+}
+
+
+.sign-up-container select option{
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.sign-up-container select option:first-child{
+    color:rgba(255,255,255,0.6);
+}
+
+
+.sign-up-container .empty_option{
+    opacity: 0.5;
+    font-style: italic;
+}
+
+/* new css over rides to get input look and feel as needed end*/
+
+
+/*start admin section*/
+.admin .nav-pills > li > a {
+    border-radius: 0px;
+}
+.admin .nav-pills{
+    width: 100%;
+}
+
+/*.admin.nav > li > a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}*/
+
+.admin .nav-pills > li.active > a,
+.admin .nav-pills > li.active > a:hover,
+.admin .nav-pills > li.active > a:focus{
+    background-color: #BDBDBD;
+    color: #fff;
+}
+
+.admin .pagination{
+    margin-top: 0px;  
+}
+
+.admin .action-td .btn,
+.admin .action-td a{
+    margin-right: 10px;
+}
+
+.admin .events-action-th{
+    max-width: 100px;
+}
+
+/*ednd admin section*/
+
+
+.school-content .img-responsive{
+    max-height: 100px;
+}
+
+#view_evtn_data #sch_evtn_table tr td,
+.school-content .event-list-table tr td{
+    border-bottom: 1px solid #ddd;
+}
+
+.school-holder-col{
+    padding-bottom: 30px;
+}
+
+
+
